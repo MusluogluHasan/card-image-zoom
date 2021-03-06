@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    height: 50rem;
+    width: 90rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(51, 51, 51, .2);
+    display: flex;
+    margin: 10rem auto;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container .big-image {
+    height: 70%;
+    width: 100%;
+    padding: 1rem;
+}
+
+.image-container .big-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 .5rem 1rem rgba(51, 51, 51, .2);
+
+}
+
+.image-container .small-image {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container .small-image img {
+    height: 13rem;
+    width: 13rem;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(51, 51, 51, .2);
+    border: .1rem solid #fff;
+}
+.image-container .small-image img:hover{
+    transform: scale(.9);
+}
+
+.stars {
+    display: flex;
+}
+.content-main {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.content{
+    position: relative;
+    padding: 2rem;
+}
+h1{
+    font-size: 4rem;
+    padding-top: 2rem;
+    color: #ff5c33;
+}
+p{
+    font-size: 2rem;
+    padding: 1rem;
+    color:#333
+}
+.stars {
+    font-size: 2rem;
+    color:gold;
+    margin-left: 3rem;
+}
+.price{
+    font-size: 3rem;
+    color: #ff5c33;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+span{
+    font-size: 2rem;
+    columns: #333;
+    text-decoration: line-through    ;
+}
+button{
+    position: absolute;
+    height: 4rem;
+    width: 16rem;
+    font-size: 1.5rem;
+    bottom: 6rem;
+    right: 24rem;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-color:#ff5c33 ;
+    box-shadow: 0 .5rem 1rem rgba(255, 92, 51, .8);
+    color: #fff;
+
+}
+
